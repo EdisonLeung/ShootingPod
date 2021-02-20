@@ -56,7 +56,7 @@ public class RobotContainer {
     private static final DriverCameras cameras = new DriverCameras(Constants.FEEDER_CAMERA_PORT, Constants.INTAKE_CAMERA_PORT);
     
     private SS_Feeder feeder = SS_Feeder.getInstance();
-    private SS_Shooter shooter = SS_Shooter.getInstance();
+    //private SS_Shooter shooter = SS_Shooter.getInstance();
     private SS_Intake intake = SS_Intake.getInstance();
     //private SS_Drivebase drivebase = SS_Drivebase.getInstance();
 

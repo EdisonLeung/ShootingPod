@@ -5,19 +5,19 @@ import frc.robot.subsystems.SS_Shooter;
 
 public class C_PrepShootLob extends CommandBase {
 
-  private SS_Shooter shooter = SS_Shooter.getInstance();
+  // private SS_Shooter shooter = SS_Shooter.getInstance();
 
-  public C_PrepShootLob() {
-    addRequirements(shooter);
-  }
+  // public C_PrepShootLob() {
+  //   addRequirements(shooter);
+  // }
 
-  @Override
-  public void initialize() {
-    shooter.extendHood(false).setLobSpeed().setSpinning(true);
-  }
+  // @Override
+  // public void initialize() {
+  //   shooter.extendHood(false).setLobSpeed().setSpinning(true);
+  // }
 
-  @Override
-  public boolean isFinished() {
-    return shooter.atCorrectRPM();
-  }
+  // @Override
+  // public boolean isFinished() {
+  //   return shooter.atCorrectRPM();
+  // }
 }
